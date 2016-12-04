@@ -1,0 +1,43 @@
+/* 2016-12-04 15:00   day 1 */
+
+Move to next word       w
+
+Move to first line of screen    H   
+
+Append      a
+
+Move to middle line of screen   M
+
+Enter replace mode  R
+
+Move to last line of screen     L
+
+Insert      i
+
+Enter replace mode      R
+
+Move to end of line     $
+
+Move right one character    h
+
+Insert at start of line     I
+
+Go to command mode  esc
+
+
+Insert new line above       O
+
+move to last line of screen     L
+
+Insert new line below   o
+
+Change char and return to cmd mode      r
+
+Delete word     dw
+
+Move to end of word     e
+Move to previous word       b
+Move to begginning of word      b
+Change rest of current word     ce
+Append at end of line   A
+/* 2016-12-04 15:00   day 1 */
