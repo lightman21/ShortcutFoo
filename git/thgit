@@ -1,0 +1,44 @@
+#2016-12-04 17:00 git day 1
+show what's changed but not yet staged
+    git diff
+
+Initialize a repository
+    git init
+
+Commit changed
+    git commit 
+
+Stage modified file main.txt
+    git add main.txt
+
+Pull data from remote 'develop' without merging
+    git fetch develop
+
+Show status of working tree
+    git status
+
+Stage files and commit
+    git commit -a
+
+Fetch and merge branch 'develop' from origin
+    git pull origin develop
+
+start tracking file.txt
+    git add file.txt
+
+Create local copy of remote repository at 'url'
+    git clone url
+
+#2016-12-04 17:00 git day 1
+
+
+
+
+
+
+
+
+
+
+
+
