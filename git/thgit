@@ -33,12 +33,31 @@ Create local copy of remote repository at 'url'
 
 
 
+#2016-12-05 12:58 git day 2
+Show branches not yet merged into current branch
+    git branch --no-merged
 
+Show last commit on all branch
+    git branch -v
 
+Delete remote branch 'fix2' from origin
+    git push origin :fix2 (caution: there is a blank between origin and the colon)
 
+Create local branch 'fix1' based off origin branch
+    git checkout -b fix1 origin/fix1
 
+Create tracking branch 'fix2' based off origin
+    git checkout --track origin/fix2
 
+Push local branch 'feature1' to origin
+    git push origin feature1
 
+Push develop branch to remote staging master
+    git push staging develop:master
 
+Show branches already merged into current branch
+    git branch --merged
 
+#2016-12-05 12:58 git day 2
 
+    
