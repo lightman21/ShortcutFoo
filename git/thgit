@@ -60,4 +60,67 @@ Show branches already merged into current branch
 
 #2016-12-05 12:58 git day 2
 
-    
+
+Python Strings-Whitespace I practice    
+Center s with blank padding of width # 'hi' => ' hi '
+    s.center(width)
+
+Right justify s with total size of width # 'hello' => ' hello'
+    s.rjust(width)
+
+Left justify s with total size of width
+    s.ljust(width)
+
+Return true if s only contains whitespace characters
+    s.isspace()
+
+Slice of s from i to j with step k
+    s[i;j;k]
+
+
+
+
+#2016-12-08:48 day 3
+    Regex-Character Classes I Practice
+Match a single character other than white space
+    \S
+Match preceding character 1 or more times
+    +
+Escape a special character
+    \
+Match a digit character
+    \d
+Match any single character
+    .
+Match a single white space character(space.tab.form feed,or line end)
+    \s
+Match a non-digit character
+    \D
+Match either 'x' or 'y'
+    x | y
+Match any alphanumeric character(including underscore)
+    \w
+Match any non-word character
+    \W
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
