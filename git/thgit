@@ -77,7 +77,14 @@ Return true if s only contains whitespace characters
 Slice of s from i to j with step k
     s[i;j;k]
 
+Return highest index of s2 in 2(raise ValueError if not found)
+    s.rindex(s2)
 
+Index of first occurrence of s2 in s after index i and before index j
+    s.index(s2,i,j)
+
+Return highest index of s2 in s
+    s.frind(s2)
 
 
 #2016-12-08:48 day 3
