@@ -87,7 +87,7 @@ Return highest index of s2 in s
     s.frind(s2)
 
 
-#2016-12-08:48 day 3
+#2016-12-07 17:01 day 3
     Regex-Character Classes I Practice
 Match a single character other than white space
     \S
@@ -110,9 +110,32 @@ Match any alphanumeric character(including underscore)
 Match any non-word character
     \W
 
+Lookahead
+    ?=
+Negative lookahead
+    ?!
+Match a word boundary
+    \b
+Match a non-word boundary
+    \B
+Match anything not in character set 'abc'
+    [^abc]
+
+if then condition
+    ?()
+
+once-only subexpression
+    ?>
+
+Lookbehind
+    ?<=
+
+negative lookbehind
+    ?<!
 
 
 
+#2016-12-07 17:01 day 3
 
 
 
