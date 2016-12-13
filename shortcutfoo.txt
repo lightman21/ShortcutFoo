@@ -1,4 +1,84 @@
-#2016-12-04 17:00 git day 1
+
+/********************************vim*********************************/
+Move to next word       w
+
+Move to first line of screen    H   
+
+Append      a
+
+Move to middle line of screen   M
+
+Enter replace mode  R
+
+Move to last line of screen     L
+
+Insert      i
+
+Enter replace mode      R
+
+Move to end of line     $
+
+Move right one character    h
+
+Insert at start of line     I
+
+Go to command mode  esc
+
+
+Insert new line above       O
+
+move to last line of screen     L
+
+Insert new line below   o
+
+Change char and return to cmd mode      r
+
+Delete word     dw
+
+Move to end of word     e
+
+Move to previous word       b
+
+Move to begginning of word      b
+
+Change rest of current word     ce
+
+Append at end of line   A
+
+Move before previous 'w' on line    Tw
+    
+Move before next 'w' on line    tw
+    
+Repeat last f,F,t,or T      ;
+    
+Repeat last f,F,t,or T reversed     ,
+    
+Move to next 'w' on line        fw
+    
+Move to previous 'w' on line        Fw
+    
+Move before next 'w' on line    tw
+    
+Move backward one screen    ^b
+    
+Go to line 12   12G
+    
+Move 5 words forward    5w
+    
+Move 5 words backward   5b
+
+Scroll down     ^e
+
+Scroll up       ^y
+    
+/********************************vim*********************************/
+
+
+
+
+
+
+/********************************Git*********************************/
 show what's changed but not yet staged
     git diff
 
@@ -29,11 +109,6 @@ start tracking file.txt
 Create local copy of remote repository at 'url'
     git clone url
 
-#2016-12-04 17:00 git day 1
-
-
-
-#2016-12-05 12:58 git day 2
 Show branches not yet merged into current branch
     git branch --no-merged
 
@@ -58,9 +133,17 @@ Push develop branch to remote staging master
 Show branches already merged into current branch
     git branch --merged
 
-#2016-12-05 12:58 git day 2
+/********************************Git*********************************/
 
 
+
+
+
+
+
+
+
+/********************************Python*********************************/
 Python Strings-Whitespace I practice    
 Center s with blank padding of width # 'hi' => ' hi '
     s.center(width)
@@ -85,10 +168,13 @@ Index of first occurrence of s2 in s after index i and before index j
 
 Return highest index of s2 in s
     s.frind(s2)
+/********************************Python*********************************/
 
 
-#2016-12-07 17:01 day 3
-    Regex-Character Classes I Practice
+
+
+/********************************Regex*********************************/
+Regex-Character Classes I Practice
 Match a single character other than white space
     \S
 Match preceding character 1 or more times
@@ -134,8 +220,9 @@ negative lookbehind
     ?<!
 
 
+/********************************Regex*********************************/
 
-#2016-12-07 17:01 day 3
+
 
 
 
