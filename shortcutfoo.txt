@@ -224,20 +224,36 @@ negative lookbehind
 
 
 
+Change highlighted text     
+    c
 
+Visual mode select characters
+    v (lowercase)
 
+Visual mode highlight lines
+    V (uppercase)
 
+Go to match parenthesis or bracket
+    %
 
+Shift right
+    >
 
+Shift left
+    <
 
+Swap case
+    ~
 
+Re-indent selection
+    =
 
+Yank(copy)highlighted text
+    y
 
+Cut highlighted text
+    d
 
-
-
-
-
-
-
+Write selection to 'filename'
+    :w filename
 
