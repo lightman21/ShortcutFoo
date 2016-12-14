@@ -263,4 +263,26 @@ Repeat last command as root
 Repeat last command
     !!
 
+Execute command 3 in history
+    !3
+
+Internet Message Access Protocol(IMAP)
+    143
+
+Network Time protocol(NTP)
+    123
+
+Client to server Dynamic Host Configuration Protocol v6(DHCPv6)
+    546
+
+File Transfer Protocol-Data(FTP-DATA)
+    20
+
+
+
+
+
+
+
+
 
