@@ -257,3 +257,10 @@ Cut highlighted text
 Write selection to 'filename'
     :w filename
 
+Repeat last command as root
+    sudo !!
+
+Repeat last command
+    !!
+
+
