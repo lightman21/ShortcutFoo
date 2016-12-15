@@ -278,9 +278,22 @@ Client to server Dynamic Host Configuration Protocol v6(DHCPv6)
 File Transfer Protocol-Data(FTP-DATA)
     20
 
+Create a tar 'file.tar' with 'files'
+    tar cf file.tar files
 
+Extract files from 'file.tar'
+    tar xf file.tar
 
+Create tar with gzip compression
+    tar czf file.tar.gz files
 
+Compress 'file' with gzip
+    gzip file
+
+Decompress file.gz
+    gzip -d file.gz
+
+    
 
 
 
