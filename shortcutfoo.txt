@@ -196,28 +196,14 @@ Match any alphanumeric character(including underscore)
 Match any non-word character
     \W
 
-Lookahead
-    ?=
-Negative lookahead
-    ?!
 Match a word boundary
     \b
+
 Match a non-word boundary
     \B
+
 Match anything not in character set 'abc'
     [^abc]
-
-if then condition
-    ?()
-
-once-only subexpression
-    ?>
-
-Lookbehind
-    ?<=
-
-negative lookbehind
-    ?<!
 
 
 /********************************Regex*********************************/
@@ -287,15 +273,39 @@ Extract files from 'file.tar'
 Create tar with gzip compression
     tar czf file.tar.gz files
 
+Extract files from file.tar.gz
+    tar xzf file.tar.gz
+
+Extract files from file.tar
+    tar xf file.tar
+
 Compress 'file' with gzip
     gzip file
 
 Decompress file.gz
     gzip -d file.gz
 
-    
+If then condition
+    ?()
 
+If then else condition
+    ?()|
 
+Once-only subexpression
+    ?>
 
+Lookbehind
+    ?<=
 
+Negative lookbehind
+    ?<!
+
+Lookahead
+    ?=
+
+Negative lookahead
+    ?!
+
+Comment
+    ?#
 
