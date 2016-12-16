@@ -309,3 +309,20 @@ Negative lookahead
 Comment
     ?#
 
+Close all windows
+    :qa
+
+Set current buffer to 'finename'
+    :e filename
+
+Write selection to 'filename'
+    :w filename
+
+New window to left
+    :vs
+
+New window above
+    :sp
+
+
+
