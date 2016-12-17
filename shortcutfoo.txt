@@ -324,5 +324,33 @@ New window to left
 New window above
     :sp
 
+Return s joined by iterable '123' # 'hello'=>'1hello2hello3'
+    s.join('123')
 
+Partition string at last occurence of sep,return 3 tuple with part before,
+the sep,and part after # 'hello'=> ('hel','l','o')
+    s.rpartition(sep)
 
+Return list of s split by sep with leftmost maxsplit performed
+    s.split(sep, maxsplit)
+
+Return a list of lines in s # 'hello\nworld'=>['hello','world']
+    s.splitlines()
+
+Execute and insert results of 'cmd'
+    :r !cmd
+
+Set current buffer to 'filename'
+    :e filename
+    
+Show character info
+    ga
+    
+Save and exit if modified
+    :x
+
+Delete 'filename'
+    :!rm filename
+
+Read and insert 'filename'
+    :r filename
