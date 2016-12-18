@@ -373,3 +373,8 @@ Match exactly n occurrences of preceding character
 Match 0 or 1
     ?
 
+Delete lines which stars with blank
+    :%s/^ *//g
+
+Delete lines which ends with blank
+    :%s/ *$//g
