@@ -360,3 +360,16 @@ Read and insert 'filename'
 
 Open new file
     :e
+
+Delete all blank lines
+    :g/^$/d
+
+Match at least n and at most m occurrences of the preceding character
+    {n,m}
+
+Match exactly n occurrences of preceding character
+    {n}
+
+Match 0 or 1
+    ?
+
