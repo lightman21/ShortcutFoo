@@ -337,9 +337,6 @@ Return list of s split by sep with leftmost maxsplit performed
 Return a list of lines in s # 'hello\nworld'=>['hello','world']
     s.splitlines()
 
-Execute and insert results of 'cmd'
-    :r !cmd
-
 Set current buffer to 'filename'
     :e filename
     
@@ -354,6 +351,9 @@ Save and exit if modified
 
 Delete 'filename'
     :!rm filename
+
+Execute and insert results of 'cmd'
+    :r !cmd
 
 Read and insert 'filename'
     :r filename
