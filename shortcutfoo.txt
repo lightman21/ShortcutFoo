@@ -261,9 +261,6 @@ Network Time protocol(NTP)
 Client to server Dynamic Host Configuration Protocol v6(DHCPv6)
     546
 
-File Transfer Protocol-Data(FTP-DATA)
-    20
-
 Create a tar 'file.tar' with 'files'
     tar cf file.tar files
 
@@ -378,3 +375,26 @@ Delete lines which stars with blank
 
 Delete lines which ends with blank
     :%s/ *$//g
+
+File Transfer Protocol-Data(FTP-DATA)
+    20
+
+File Transfer Protocol-Control(FTP)
+    21
+
+Match a NULL
+    \0
+
+Match a tab
+    \t
+
+Match a line feed
+    \n
+
+Match a carriage return
+    \r
+
+Match control character X in a string
+    \cX
+
+
