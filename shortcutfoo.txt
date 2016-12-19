@@ -408,3 +408,23 @@ Show bookmarks
 
 Go to previous position
     ``
+Confirm replace all 'foo' with 'bar' on line
+    :s/foo/bar/gc
+
+Replace current char with 'x'
+    rx
+
+Confirm replace all 'foo' with 'bar' in file
+    :%s/foo/bar/gc
+
+Replace first 'foo' with 'bar'
+    :s/foo/bar
+
+Replace all 'foo' with 'bar' between lines 2 and 9
+    :2,9s/foo/bar/g
+
+Ignore case replace first 'foo' with 'bar'
+    :s/foo/bar/i
+
+Replace first 'foo' with 'bar' on every line
+    :%s/foo/bar
