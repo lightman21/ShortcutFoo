@@ -428,3 +428,8 @@ Ignore case replace first 'foo' with 'bar'
 
 Replace first 'foo' with 'bar' on every line
     :%s/foo/bar
+
+Vim temporary cancel highlight
+    :noh  or :nohlsearch
+
+
