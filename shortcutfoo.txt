@@ -432,4 +432,16 @@ Replace first 'foo' with 'bar' on every line
 Vim temporary cancel highlight
     :noh  or :nohlsearch
 
+Match a form feed
+    \f
+
+Match character with code hhhh(4 hex digits)
+    \uhhhh
+
+Match a vertical tab
+    \v
+
+Match character with code hh(2 hex digits)
+    \xhh
+
 
