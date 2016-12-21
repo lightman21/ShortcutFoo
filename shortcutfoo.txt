@@ -1,3 +1,19 @@
+##########bloody shit################
+Replace all 'foo' with 'bar' on line
+    :s/foo/bar/g
+
+Replace first 'foo' with 'bar' on every line
+    :%s/foo/bar/
+
+Ignore case replace first 'foo' with 'bar'
+    :s/foo/bar/i
+
+Replace all 'foo' with 'bar' between lines 2 and 9
+    :2,9s/foo/bar/g
+##########bloody shit################
+
+
+
 
 /********************************vim*********************************/
 Move to next word       w
