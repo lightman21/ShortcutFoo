@@ -444,4 +444,17 @@ Match a vertical tab
 Match character with code hh(2 hex digits)
     \xhh
 
+# Regex-Flags Practice
+Global search
+    g
+
+Multi-line search
+    m
+    
+"sticky" search match staring at current position in target string
+    y
+
+Case-insensitive search
+    i
+# Regex-Flags Practice
 
