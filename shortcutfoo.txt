@@ -1,4 +1,20 @@
 ##########bloody shit################
+when Vim in command mode
+    you wanna type the bloody ^m 
+    you nned to type CTRL-V <CR>
+
+Vi and Vim Editor Syntax of the text substitution inside vim editor:
+    :[range]s[substitute]/{parttern}/{string}/[flags] [count]
+
+Following are three possible flags.
+    [c] Confirm each substitution
+    [g] Replace all occurrences in the line
+    [i] Ignore case for the pattern
+
+for the [range]
+:s  means current line
+:%s means every lines
+
 Replace all 'foo' with 'bar' on line
     :s/foo/bar/g
 
@@ -474,3 +490,14 @@ Case-insensitive search
     i
 # Regex-Flags Practice
 
+Vi and Vim Editor Syntax of the text substitution inside vim editor:
+    :[range]s[substitute]/{parttern}/{string}/[flags] [count]
+
+Following are three possible flags.
+    [c] Confirm each substitution
+    [g] Replace all occurrences in the line
+    [i] Ignore case for the pattern
+
+for the [range]
+:s  means current line
+:%s means every lines
