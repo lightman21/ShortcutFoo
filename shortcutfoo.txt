@@ -517,3 +517,38 @@ Set highlight matching phrases
 Set ignore case
     set ic
 
+Overwrite mode
+    option + command + O
+
+Paste previous
+    shift + command + V
+
+Free hand editing mode
+    option + command + E
+
+Comment line / selection
+    command + /
+
+Transpose characters
+    control + T
+
+Shift left
+    command + [
+
+Shift right
+    command + ]
+
+Show clipboard history
+    control + option + command + v
+
+Duplicate line
+    shift + control + D
+
+Redo
+    shift + command + z
+
+Delete char on right
+    control + d
+
+Align assignments
+    option + command + ]
