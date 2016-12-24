@@ -502,20 +502,26 @@ for the [range]
 :s  means current line
 :%s means every lines
 
+Set incremental search
+    :set is
+   
 Turn off incremental search
     :set nois
     
 Search for current word forward
     *
+
+Search for current word backward
+    #
     
-Set incremental search
-    :set is
-   
 Set highlight matching phrases
     :set hls
     
 Set ignore case
     set ic
+
+Set don't ignore case
+    set noic
 
 Overwrite mode
     option + command + O
@@ -552,3 +558,35 @@ Delete char on right
 
 Align assignments
     option + command + ]
+
+Match 'x' but do not remember the match
+    (?:x)
+
+Match 'x' and remember the match
+    (x)
+
+A back reference to the last substring matching the n parenthetical in the regex
+    \n
+
+Start editing where foo is defined
+    vim -t foo
+
+Move autocomplete backward
+    ^p
+
+Move language autocomplete forward
+    ^x
+
+Move language autocomplete backward
+    ^o
+
+Yank to beginning of next word
+    yw
+
+Lookup word in man pages
+    K
+
+Run make
+    :make
+
+
