@@ -574,17 +574,20 @@ Start editing where foo is defined
 Move autocomplete backward
     ^p
 
+Move autocomplete forward
+    ^n
+
 Move language autocomplete forward
     ^x
 
 Move language autocomplete backward
     ^o
 
-Yank to beginning of next word
-    yw
-
 Lookup word in man pages
     K
+
+Yank to beginning of next word
+    yw
 
 Run make
     :make
