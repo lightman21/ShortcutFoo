@@ -1,6 +1,6 @@
 ##########bloody shit################
 when Vim in command mode
-    you wanna type the bloody ^m 
+    you wanna type the bloody ^m
     you nned to type CTRL-V <CR>
 
 Vi and Vim Editor Syntax of the text substitution inside vim editor:
@@ -78,31 +78,31 @@ Change rest of current word     ce
 Append at end of line   A
 
 Move before previous 'w' on line    Tw
-    
+
 Move before next 'w' on line    tw
-    
+
 Repeat last f,F,t,or T      ;
-    
+
 Repeat last f,F,t,or T reversed     ,
-    
+
 Move to next 'w' on line        fw
-    
+
 Move to previous 'w' on line        Fw
-    
+
 Move before next 'w' on line    tw
-    
+
 Move backward one screen    ^b
-    
+
 Go to line 12   12G
-    
+
 Move 5 words forward    5w
-    
+
 Move 5 words backward   5b
 
 Scroll down     ^e
 
 Scroll up       ^y
-    
+
 /********************************vim*********************************/
 
 
@@ -118,7 +118,7 @@ Initialize a repository
     git init
 
 Commit changed
-    git commit 
+    git commit
 
 Stage modified file main.txt
     git add main.txt
@@ -368,13 +368,13 @@ Return a list of lines in s # 'hello\nworld'=>['hello','world']
 
 Set current buffer to 'filename'
     :e filename
-    
+
 Show character info
     ga
 
 Show file info
     ^g
-    
+
 Save and exit if modified
     :x
 
@@ -482,7 +482,7 @@ Global search
 
 Multi-line search
     m
-    
+
 "sticky" search match staring at current position in target string
     y
 
@@ -504,19 +504,19 @@ for the [range]
 
 Set incremental search
     :set is
-   
+
 Turn off incremental search
     :set nois
-    
+
 Search for current word forward
     *
 
 Search for current word backward
     #
-    
+
 Set highlight matching phrases
     :set hls
-    
+
 Set ignore case
     set ic
 
@@ -574,22 +574,83 @@ Start editing where foo is defined
 Move autocomplete backward
     ^p
 
-Move autocomplete forward
-    ^n
-
 Move language autocomplete forward
     ^x
 
 Move language autocomplete backward
     ^o
 
-Lookup word in man pages
-    K
-
 Yank to beginning of next word
     yw
 
+Lookup word in man pages
+    K
+
 Run make
     :make
+
+
+
+/********************************awk*********************************/
+Reference first column
+    $1
+
+Execute action for matched pattern ‘pattern’ on file ‘file’
+    awk ‘/pattern/ {action}’ file
+
+Char to separate two actions
+    ;
+
+Print current record line
+    print
+
+Reference current record line
+    $0
+
+Line number of the current record
+    NR
+
+Number of fields in current record
+    NF
+
+Field separator of input file(default whitespace)
+    FS
+
+/********************************awk*********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
