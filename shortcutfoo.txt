@@ -616,6 +616,24 @@ Number of fields in current record
 Field separator of input file(default whitespace)
     FS
 
+Do not match operator
+    !~
+
+Command line option to specify input field delimiter
+    -F
+
+Match operator
+    ~
+
+Concat str1 and str2
+    str1 str2
+
+Denotes block executed once at start
+    BEGIN
+
+Denotes block executed once at end
+    END
+
 /********************************awk*********************************/
 
 
