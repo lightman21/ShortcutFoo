@@ -1,0 +1,23 @@
+Create symbolic 'link1' to 'file1'
+    ln -s file1 link1
+
+Create tar with gzip compression
+    tar czf file.tar.gz files
+
+Extract files from file.tar.gz
+    tar xzf file.tar.gz
+
+Create a tar 'file.tar' with 'files'
+    tar cf file.tar files
+
+
+
+
+
+
+
+
+
+
+
+
