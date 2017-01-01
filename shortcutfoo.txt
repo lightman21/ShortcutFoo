@@ -634,6 +634,25 @@ Denotes block executed once at start
 Denotes block executed once at end
     END
 
+Print line if field 1 matches regex in file
+    awk '$1 ~ /regex/' file
+
+Print line if field 1 does not match regex in file
+    awk '$1 !~ /regex/' file
+
+Print only lines that do not match regex in file
+    awk '!/regex/' file
+
+Print any line where field 2 is equal to "foo" in file
+    awk '$2 == "foo"' file
+
+Print any line where field 2 is NOT equal to "foo" in file
+    awk '$2 != "foo"' file
+
+print first field for each record in file
+    awk '{print $1}' file
+
+
 /********************************awk*********************************/
 
 
