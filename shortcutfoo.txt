@@ -624,7 +624,6 @@ Command line option to specify input field delimiter
 
 Match operator
     ~
-
 Concat str1 and str2
     str1 str2
 

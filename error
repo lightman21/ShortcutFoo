@@ -10,6 +10,20 @@ Extract files from file.tar.gz
 Create a tar 'file.tar' with 'files'
     tar cf file.tar files
 
+Telnet(TELNET)
+    23
+
+Simple Mail Transfer Protocol(SMTP)
+    25
+
+Trivial File Transfer Protocol(TFTP)
+    69
+
+File Transfer Protocol(FTP)
+    21
+
+Secure Shell (SSH)
+    22
 
 
 
