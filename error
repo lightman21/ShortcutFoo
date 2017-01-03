@@ -15,10 +15,6 @@ Create a tar 'file.tar' with 'files'
 
 
 ########Netports what I mistake##########
-
-Telnet(TELNET)
-    23
-
 Simple Mail Transfer Protocol(SMTP)
     25
 
@@ -30,7 +26,16 @@ File Transfer Protocol(FTP)
 
 Secure Shell (SSH)
     22
+
+Telnet(TELNET)
+    23
 ########Netports what I mistake##########
+
+
+
+
+
+
 
 
 ########AWK what I mistake##########
@@ -39,8 +44,11 @@ Print line if field 1 does NOT match regex in file
 
 Print only lines that do not match regex in file
     awk '!/regex/' file
-
 ########AWK what I mistake##########
+
+
+
+
 
 
 
@@ -48,21 +56,15 @@ Print only lines that do not match regex in file
 Match a single white space character(space,tab,form feed or line feed)
     \s
 
-Match any alphanumeric character(including understore)
-    \w
-
 Match a single character other than white space
     \S
 
+Match any alphanumeric character(including understore)
+    \w
+
 Match any non-wordcharacter
     \W
-
 ########regex what I mistake##########
-
-
-
-
-
 
 
 
