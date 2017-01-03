@@ -25,6 +25,12 @@ File Transfer Protocol(FTP)
 Secure Shell (SSH)
     22
 
+Print line if field 1 does NOT match regex in file
+    awk '$1 !~ /regex/' file
+
+Print only lines that do not match regex in file
+    awk '!/regex/' file
+
 
 
 
