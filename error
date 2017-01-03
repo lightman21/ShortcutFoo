@@ -1,3 +1,4 @@
+########command line what I mistake##########
 Create symbolic 'link1' to 'file1'
     ln -s file1 link1
 
@@ -9,6 +10,11 @@ Extract files from file.tar.gz
 
 Create a tar 'file.tar' with 'files'
     tar cf file.tar files
+########command line what I mistake##########
+
+
+
+########Netports what I mistake##########
 
 Telnet(TELNET)
     23
@@ -24,13 +30,34 @@ File Transfer Protocol(FTP)
 
 Secure Shell (SSH)
     22
+########Netports what I mistake##########
 
+
+########AWK what I mistake##########
 Print line if field 1 does NOT match regex in file
     awk '$1 !~ /regex/' file
 
 Print only lines that do not match regex in file
     awk '!/regex/' file
 
+########AWK what I mistake##########
+
+
+
+########regex what I mistake##########
+Match a single white space character(space,tab,form feed or line feed)
+    \s
+
+Match any alphanumeric character(including understore)
+    \w
+
+Match a single character other than white space
+    \S
+
+Match any non-wordcharacter
+    \W
+
+########regex what I mistake##########
 
 
 
