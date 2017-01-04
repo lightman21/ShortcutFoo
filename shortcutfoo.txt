@@ -651,42 +651,20 @@ Print any line where field 2 is NOT equal to "foo" in file
 print first field for each record in file
     awk '{print $1}' file
 
+Field separator of the outputted data(default whitespace)
+    OFS
+
+Reference current input file
+    FILENAME
+
+Record seperator of the outputted data(default newline)
+    ORS
+
+Reference number of the current record relative to current input file
+    FNR
+
+Record separator of input file(default newline)
+    RS
 
 /********************************awk*********************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
