@@ -654,14 +654,14 @@ print first field for each record in file
 Field separator of the outputted data(default whitespace)
     OFS
 
+Reference number of the current record relative to current input file
+    FNR
+
 Reference current input file
     FILENAME
 
 Record seperator of the outputted data(default newline)
     ORS
-
-Reference number of the current record relative to current input file
-    FNR
 
 Record separator of input file(default newline)
     RS

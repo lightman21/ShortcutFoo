@@ -1,4 +1,4 @@
-########command line what I mistake##########
+########command line the mistake what I made##########
 Create symbolic 'link1' to 'file1'
     ln -s file1 link1
 
@@ -10,11 +10,11 @@ Extract files from file.tar.gz
 
 Create a tar 'file.tar' with 'files'
     tar cf file.tar files
-########command line what I mistake##########
+########command line the mistake what I made##########
 
 
 
-########Netports what I mistake##########
+########Netports the mistake what I made##########
 Simple Mail Transfer Protocol(SMTP)
     25
 
@@ -29,7 +29,7 @@ Secure Shell (SSH)
 
 Telnet(TELNET)
     23
-########Netports what I mistake##########
+########Netports the mistake what I made##########
 
 
 
@@ -38,13 +38,27 @@ Telnet(TELNET)
 
 
 
-########AWK what I mistake##########
+########AWK the mistake what I made##########
 Print line if field 1 does NOT match regex in file
     awk '$1 !~ /regex/' file
 
 Print only lines that do not match regex in file
     awk '!/regex/' file
-########AWK what I mistake##########
+
+Reference number of the current record relative to current input file
+    FNR
+
+Record separator of the outputted data(default newline)
+    ORS
+
+Field separator of the outputted data(default whitespace)
+    OFS
+
+Field separator of the input data(default whitespace)
+    FS
+
+
+########AWK the mistake what I made##########
 
 
 
@@ -52,7 +66,7 @@ Print only lines that do not match regex in file
 
 
 
-########regex what I mistake##########
+########regex the mistake what I made##########
 Match a single white space character(space,tab,form feed or line feed)
     \s
 
@@ -64,7 +78,7 @@ Match any alphanumeric character(including understore)
 
 Match any non-wordcharacter
     \W
-########regex what I mistake##########
+########regex the mistake what I made##########
 
 
 
