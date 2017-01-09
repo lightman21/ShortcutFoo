@@ -56,8 +56,6 @@ Field separator of the outputted data(default whitespace)
 
 Field separator of the input data(default whitespace)
     FS
-
-
 ########AWK the mistake what I made##########
 
 

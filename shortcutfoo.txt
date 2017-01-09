@@ -1,5 +1,10 @@
 ##########bloody shit################
-when Vim in command mode
+
+    Move language autocomplete forward ^x,backward ^o.
+    Move autocomplete forward ^n, backward ^p,
+
+
+when vim in command mode
     you wanna type the bloody ^m
     you nned to type CTRL-V <CR>
 
