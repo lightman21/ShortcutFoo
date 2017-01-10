@@ -98,5 +98,13 @@ Match any non-wordcharacter
 
 
 
+########VIM the mistake what I made##########
+Insert at start of Line
+    I
+
+New window to left
+    sp
+
+########VIM the mistake what I made##########
 
 
