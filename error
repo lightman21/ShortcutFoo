@@ -56,6 +56,24 @@ Field separator of the outputted data(default whitespace)
 
 Field separator of the input data(default whitespace)
     FS
+
+2017-01-10
+Record separator of input file(default newline)
+    RS
+
+Record separator of the outputted data(default newline)
+    ORS
+
+Pirnt line if field 1 matches regex in file
+    awk '$1 ~ /regex/' file
+
+Field separator of the outputted data(default whitespace)
+    OFS
+
+Reference number of the current record relative to current input file
+    FNR
+2017-01-10
+
 ########AWK the mistake what I made##########
 
 
