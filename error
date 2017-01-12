@@ -1,4 +1,4 @@
-########command line the mistake what I made##########
+########command line the mistakes what I made##########
 Create symbolic 'link1' to 'file1'
     ln -s file1 link1
 
@@ -10,11 +10,11 @@ Extract files from file.tar.gz
 
 Create a tar 'file.tar' with 'files'
     tar cf file.tar files
-########command line the mistake what I made##########
+########command line the mistakes what I made##########
 
 
 
-########Netports the mistake what I made##########
+########Netports the mistakes what I made##########
 Simple Mail Transfer Protocol(SMTP)
     25
 
@@ -29,7 +29,7 @@ Secure Shell (SSH)
 
 Telnet(TELNET)
     23
-########Netports the mistake what I made##########
+########Netports the mistakes what I made##########
 
 
 
@@ -38,7 +38,7 @@ Telnet(TELNET)
 
 
 
-########AWK the mistake what I made##########
+########AWK the mistakes what I made##########
 Print line if field 1 does NOT match regex in file
     awk '$1 !~ /regex/' file
 
@@ -74,7 +74,7 @@ Reference number of the current record relative to current input file
     FNR
 2017-01-10
 
-########AWK the mistake what I made##########
+########AWK the mistakes what I made##########
 
 
 
@@ -82,7 +82,7 @@ Reference number of the current record relative to current input file
 
 
 
-########regex the mistake what I made##########
+########regex the mistakes what I made##########
 Match a single white space character(space,tab,form feed or line feed)
     \s
 
@@ -94,17 +94,24 @@ Match any alphanumeric character(including understore)
 
 Match any non-wordcharacter
     \W
-########regex the mistake what I made##########
+
+"Sticky" search match starting at current position in target string
+    y
+
+Match a tab
+    \t
+
+########regex the mistakes what I made##########
 
 
 
-########VIM the mistake what I made##########
+########VIM the mistakes what I made##########
 Insert at start of Line
     I
 
 New window to left
     sp
 
-########VIM the mistake what I made##########
+########VIM the mistakes what I made##########
 
 
