@@ -671,5 +671,24 @@ Record seperator of the outputted data(default newline)
 Record separator of input file(default newline)
     RS
 
+2017-01-12 10:56
+Argument array, assignable
+    ARGV
+
+Argument count, assignable
+    ARGC
+
+Conversion format used when converting numbers(default %.6g)
+    CONVFMT
+
+Array of enviroment variables
+    ENVIRON
+
+Separates multiple subscripts(default 034)
+    SUBSEP
+
+Output format for numbers(default %.6g)
+    OFMT
+
 /********************************awk*********************************/
 
