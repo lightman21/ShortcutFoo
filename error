@@ -10,6 +10,60 @@ Extract files from file.tar.gz
 
 Create a tar 'file.tar' with 'files'
     tar cf file.tar files
+
+2017-01-16 10:03
+Create a tar 'file.tar' with 'files'
+    tar cf file.tar files
+
+List current dir contents
+    ls
+
+Delete char begind cursor(backspace)
+    ^h
+
+Delete char in frond of cursors or logout
+    ^d
+
+Extract files from 'file.tar'
+    tar xf file.tar
+
+List current dir contents sorted by mod date
+    ls -t
+
+Change to previous working dir
+    cd -
+
+Output file 'file'
+    more file
+
+Show which app
+    which app
+
+Search for 'pattern' in output of cmd
+    cmd | grep pattern
+
+Show man page for cmd
+    man cmd
+
+Display who is logged in
+    w
+
+Terminate all processes named 'proc'
+    killall proc
+
+Show info about use
+    finger user
+
+Find file names quickly
+    locate file
+
+Show kernel info
+    uname -a
+
+Display effective username
+    whoami
+
+2017-01-16 10:03
 ########command line the mistakes what I made##########
 
 
