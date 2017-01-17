@@ -690,5 +690,23 @@ Separates multiple subscripts(default 034)
 Output format for numbers(default %.6g)
     OFMT
 
+Random number between 0 and 1
+    rand
+
+Set seed for rand and return previous seed
+    srand
+
+Length of string s( or $0 if no arg)
+    length(s)
+
+Position in string s where string t occurs, 0 if not found
+    index(s,t)
+
+Truncate x to integer value
+    int(x)
+
+Return len-char substring of s that begins at index(counted from 1)
+    substr(s,index,len)
+    
 /********************************awk*********************************/
 
