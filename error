@@ -138,6 +138,12 @@ Return len-char substring of s that begins at index(counted from 1)
 Length of string s (or $0 if no arg)
     length(s)
 2017-01-18
+
+2017-01-19
+Return len-char substring of s that begins at index(counted from 1)
+    substr(s,index,len)
+2017-01-19
+
 ########AWK the mistakes what I made##########
 
 
