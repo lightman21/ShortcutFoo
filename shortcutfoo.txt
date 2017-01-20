@@ -708,6 +708,23 @@ Truncate x to integer value
 
 Return len-char substring of s that begins at index(counted from 1)
     substr(s,index,len)
+2017-01-17 09:50
+
+2017-01-20 10:17
+Substitute t for all occurrences of regex r in string s
+    gsub(r,t,s)
+
+Substitute t for first occurrence of regex r in string s (or $0 if s not given)
+    sub(r,t,s)
+
+Position in string s where regex r occurs, or 0 if not found
+    match(s,r)
+
+Split string s into array a split by fs,returning length of a
+    split(s,a,fs)
+
+2017-01-20 10:17
+
     
 /********************************awk*********************************/
 
