@@ -1,3 +1,13 @@
+
+Negative lookahead
+    ?!
+
+Negative lookbehind
+    ?<!
+
+Comment
+    ?#
+
 ########command line the mistakes what I made##########
 Create symbolic 'link1' to 'file1'
     ln -s file1 link1

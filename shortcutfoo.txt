@@ -3,10 +3,9 @@
     Move language autocomplete forward ^x,backward ^o.
     Move autocomplete forward ^n, backward ^p,
 
-
 when vim in command mode
     you wanna type the bloody ^m
-    you nned to type CTRL-V <CR>
+    you need to type CTRL-V <CR>
 
 Vi and Vim Editor Syntax of the text substitution inside vim editor:
     :[range]s[substitute]/{parttern}/{string}/[flags] [count]
@@ -726,5 +725,19 @@ Split string s into array a split by fs,returning length of a
 2017-01-20 10:17
 
     
+2017-01-25 13:38
+String to lowercase
+    tolower(s)
+
+String to uppercase
+    toupper(s)
+
+Execute cmd and return exit status
+    system(cmd)
+
+Set $0 to next input record from current input file.
+    getline
+
+2017-01-25 13:38
 /********************************awk*********************************/
 
