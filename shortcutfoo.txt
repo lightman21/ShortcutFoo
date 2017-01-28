@@ -739,5 +739,33 @@ Set $0 to next input record from current input file.
     getline
 
 2017-01-25 13:38
+
+2017-01-28 12:59
+Print line immediately after regex,but no line containing regex in file
+    awk '/regex/{getline;print}' file
+
+Count lines in file
+    awk 'END{print NR}' file
+
+Print first field for each record in file excluding the first record
+    awk 'NR!=1{print $1}' file
+
+Print total number of lines that contain foo
+    awk '/foo/{n++}; END {print n+0}' file
+
+Print line number 12 of file
+    awk 'NR==12' file
+
+Print total number of fields in all lines
+    awk '{total=total+NF};END{print total}' file
+
+Print lines with more than 32 characters in file
+    awk 'length > 32' file
+
+2017-01-28 12:59
+    
+
+
+
 /********************************awk*********************************/
 

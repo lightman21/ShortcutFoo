@@ -1,4 +1,3 @@
-
 Negative lookahead
     ?!
 
@@ -99,9 +98,6 @@ Telnet(TELNET)
 
 
 
-
-
-
 ########AWK the mistakes what I made##########
 Print line if field 1 does NOT match regex in file
     awk '$1 !~ /regex/' file
@@ -193,5 +189,3 @@ New window to left
     sp
 
 ########VIM the mistakes what I made##########
-
-
