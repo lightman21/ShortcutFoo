@@ -763,9 +763,5 @@ Print lines with more than 32 characters in file
     awk 'length > 32' file
 
 2017-01-28 12:59
-    
-
-
-
 /********************************awk*********************************/
 

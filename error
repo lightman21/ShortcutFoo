@@ -1,3 +1,58 @@
+--------------------2017-01-29--------------------
+Search recursively for 'pattern' in dir
+    grep -r pattern dir
+
+Find file names quickly
+    locate file
+
+Compress 'file' with gzip
+    gzip file
+
+Terminate all processes named 'proc'
+    killall proc
+
+Create tar with gzip compression
+    tar czf file.tar.gz files
+
+Terminate process id of 5
+    kill 5
+
+Extract files from file.tar.gz
+    tar xzf file.tar.gz
+
+Search for 'pattern' in output of cmd
+    cmd | grep pattern
+
+List current dir contents including hidden 
+    ls -a
+
+Create a tar 'file.tar' with 'files'
+    tar cf file.tar files
+
+Show info about user
+    finger user
+
+Extract files from 'file.tar'
+    tar xf file.tar
+
+Search for 'pattern' in 'files'
+    grep pattern files
+
+Delete char infrond of cursor or logout
+    ^d
+--------------------2017-01-29--------------------
+
+
+
+
+
+
+
+
+
+
+
+
 Negative lookahead
     ?!
 
