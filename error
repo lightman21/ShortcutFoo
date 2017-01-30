@@ -1,3 +1,54 @@
+--------------------2017-01-30--------------------
+Count lines in file
+    awk 'END{print NR}' file
+
+Print total number of fields in all lines
+    awk {total=total+NF};END{print total}' file
+
+Print total number of lines that contain foo
+    awk '/foo/{n++};END{print n+0}' file
+
+Scroll up
+    ^y
+
+Move language autocomplete forward
+    ^x
+
+Display effective username
+    whoami
+
+Display your active processes
+    ps
+
+Delete char infront of cursor or logout
+    ^d
+
+Create tar with gzip compression
+    tar czf file.tar.gz files
+
+Find file names quickly
+    locate file
+
+Show which app
+    which app
+
+Display all processes
+    top
+
+List current dir contents
+    ls
+
+Remove 'file'(force)
+    rm -f file
+
+List current dir contents including hidden
+    ls -a
+
+Show where app location is
+    whereis app
+
+--------------------2017-01-30--------------------
+
 --------------------2017-01-29--------------------
 Search recursively for 'pattern' in dir
     grep -r pattern dir
