@@ -1,3 +1,21 @@
+
+--------------------2017-02-02--------------------
+Print first field for each record in file excluding the first record
+    awk 'NR!=1{print $1}' file
+
+Print total number of fields in all lines
+    awk '{total=total+NF}END;{print total}' file
+
+Print total number of lines that contain foo
+    awk '/foo/{n++};END{print n+0}' file
+
+Count lines in file
+    awk 'END{print NR}' file
+
+Print line immediately after regex,but no line containing regex in file
+    awk '/regex/getline;print}' file
+--------------------2017-02-02--------------------
+
 --------------------2017-01-31--------------------
 Print line immediately after regex,but no line containing regex
     awk '/regex/{getline;print}' file
