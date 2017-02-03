@@ -1,4 +1,354 @@
 ##########bloody shit################
+--------------------2017-02-03--------------------
+Print line number 12 of file
+    awk 'NR==12' file
+
+Print first field for each record in file excluding the first record
+    awk 'NR!=1{print $1}' file
+
+Print total number of lines that contain foo
+    awk '/foo/{n++};END{print n+0}' file
+
+Print total number of fields in all lines
+    awk '{total=total+NF};END{print total}' file
+
+Match 'x' but do not remember the match
+    (?:x)
+
+Global search 
+    g
+
+Match 0 or 1
+    ?
+
+"sticky" search match starting at current position in target string
+    y
+--------------------2017-02-03--------------------
+
+--------------------2017-02-02--------------------
+Print first field for each record in file excluding the first record
+    awk 'NR!=1{print $1}' file
+
+Print total number of fields in all lines
+    awk '{total=total+NF}END;{print total}' file
+
+Print total number of lines that contain foo
+    awk '/foo/{n++};END{print n+0}' file
+
+Count lines in file
+    awk 'END{print NR}' file
+
+Print line immediately after regex,but no line containing regex in file
+    awk '/regex/getline;print}' file
+--------------------2017-02-02--------------------
+
+--------------------2017-01-31--------------------
+Print line immediately after regex,but no line containing regex
+    awk '/regex/{getline;print}' file
+
+Print total number of lines that contain foo
+    awk '/foo/{n++};END{print n+0}' file
+
+Print total number of fields in all lines
+    awk '{total=total+NF};END{print total}' file
+
+Count lines in file
+    awk 'END{print NR}' file
+
+Print first field for each record in file excluding the first record
+    awk 'NR!=1{print $1}' file
+--------------------2017-01-31--------------------
+
+--------------------2017-01-30--------------------
+Count lines in file
+    awk 'END{print NR}' file
+
+Print total number of fields in all lines
+    awk {total=total+NF};END{print total}' file
+
+Print total number of lines that contain foo
+    awk '/foo/{n++};END{print n+0}' file
+
+Scroll up
+    ^y
+
+Move language autocomplete forward
+    ^x
+
+Display effective username
+    whoami
+
+Display your active processes
+    ps
+
+Delete char infront of cursor or logout
+    ^d
+
+Create tar with gzip compression
+    tar czf file.tar.gz files
+
+Find file names quickly
+    locate file
+
+Show which app
+    which app
+
+Display all processes
+    top
+
+List current dir contents
+    ls
+
+Remove 'file'(force)
+    rm -f file
+
+List current dir contents including hidden
+    ls -a
+
+Show where app location is
+    whereis app
+
+--------------------2017-01-30--------------------
+
+--------------------2017-01-29--------------------
+Search recursively for 'pattern' in dir
+    grep -r pattern dir
+
+Find file names quickly
+    locate file
+
+Compress 'file' with gzip
+    gzip file
+
+Terminate all processes named 'proc'
+    killall proc
+
+Create tar with gzip compression
+    tar czf file.tar.gz files
+
+Terminate process id of 5
+    kill 5
+
+Extract files from file.tar.gz
+    tar xzf file.tar.gz
+
+Search for 'pattern' in output of cmd
+    cmd | grep pattern
+
+List current dir contents including hidden 
+    ls -a
+
+Create a tar 'file.tar' with 'files'
+    tar cf file.tar files
+
+Show info about user
+    finger user
+
+Extract files from 'file.tar'
+    tar xf file.tar
+
+Search for 'pattern' in 'files'
+    grep pattern files
+
+Delete char infrond of cursor or logout
+    ^d
+--------------------2017-01-29--------------------
+
+
+
+
+
+
+
+
+
+
+
+
+Negative lookahead
+    ?!
+
+Negative lookbehind
+    ?<!
+
+Comment
+    ?#
+
+########command line the mistakes what I made##########
+Create symbolic 'link1' to 'file1'
+    ln -s file1 link1
+
+Create tar with gzip compression
+    tar czf file.tar.gz files
+
+Extract files from file.tar.gz
+    tar xzf file.tar.gz
+
+Create a tar 'file.tar' with 'files'
+    tar cf file.tar files
+
+2017-01-16 10:03
+Create a tar 'file.tar' with 'files'
+    tar cf file.tar files
+
+List current dir contents
+    ls
+
+Delete char begind cursor(backspace)
+    ^h
+
+Delete char in frond of cursors or logout
+    ^d
+
+Extract files from 'file.tar'
+    tar xf file.tar
+
+List current dir contents sorted by mod date
+    ls -t
+
+Change to previous working dir
+    cd -
+
+Output file 'file'
+    more file
+
+Show which app
+    which app
+
+Search for 'pattern' in output of cmd
+    cmd | grep pattern
+
+Show man page for cmd
+    man cmd
+
+Display who is logged in
+    w
+
+Terminate all processes named 'proc'
+    killall proc
+
+Show info about use
+    finger user
+
+Find file names quickly
+    locate file
+
+Show kernel info
+    uname -a
+
+Display effective username
+    whoami
+
+2017-01-16 10:03
+########command line the mistakes what I made##########
+
+
+
+########Netports the mistakes what I made##########
+Simple Mail Transfer Protocol(SMTP)
+    25
+
+Trivial File Transfer Protocol(TFTP)
+    69
+
+File Transfer Protocol(FTP)
+    21
+
+Secure Shell (SSH)
+    22
+
+Telnet(TELNET)
+    23
+########Netports the mistakes what I made##########
+
+########AWK the mistakes what I made##########
+Print line if field 1 does NOT match regex in file
+    awk '$1 !~ /regex/' file
+
+Print only lines that do not match regex in file
+    awk '!/regex/' file
+
+Reference number of the current record relative to current input file
+    FNR
+
+Record separator of the outputted data(default newline)
+    ORS
+
+Field separator of the outputted data(default whitespace)
+    OFS
+
+Field separator of the input data(default whitespace)
+    FS
+
+2017-01-10
+Record separator of input file(default newline)
+    RS
+
+Record separator of the outputted data(default newline)
+    ORS
+
+Pirnt line if field 1 matches regex in file
+    awk '$1 ~ /regex/' file
+
+Field separator of the outputted data(default whitespace)
+    OFS
+
+Reference number of the current record relative to current input file
+    FNR
+2017-01-10
+
+2017-01-18
+Number of fields in current record
+    NF
+
+Return len-char substring of s that begins at index(counted from 1)
+    substr(s,index,len)
+
+Length of string s (or $0 if no arg)
+    length(s)
+2017-01-18
+
+2017-01-19
+Return len-char substring of s that begins at index(counted from 1)
+    substr(s,index,len)
+2017-01-19
+
+########AWK the mistakes what I made##########
+
+########regex the mistakes what I made##########
+Match a single white space character(space,tab,form feed or line feed)
+    \s
+
+Match a single character other than white space
+    \S
+
+Match any alphanumeric character(including understore)
+    \w
+
+Match any non-wordcharacter
+    \W
+
+"Sticky" search match starting at current position in target string
+    y
+
+Match a tab
+    \t
+########regex the mistakes what I made##########
+
+########VIM the mistakes what I made##########
+Insert at start of Line
+    I
+
+New window to left
+    sp
+########VIM the mistakes what I made##########
+
+
+
+
+
+
+
 
     Move language autocomplete forward ^x,backward ^o.
     Move autocomplete forward ^n, backward ^p,
