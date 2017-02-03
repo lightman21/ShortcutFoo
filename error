@@ -1,4 +1,31 @@
 
+--------------------2017-02-03--------------------
+Print line number 12 of file
+    awk 'NR==12' file
+
+Print first field for each record in file excluding the first record
+    awk 'NR!=1{print $1}' file
+
+Print total number of lines that contain foo
+    awk '/foo/{n++};END{print n+0}' file
+
+Print total number of fields in all lines
+    awk '{total=total+NF};END{print total}' file
+
+Match 'x' but do not remember the match
+    (?:x)
+
+Global search 
+    g
+
+Match 0 or 1
+    ?
+
+"sticky" search match starting at current position in target string
+    y
+
+--------------------2017-02-03--------------------
+
 --------------------2017-02-02--------------------
 Print first field for each record in file excluding the first record
     awk 'NR!=1{print $1}' file
