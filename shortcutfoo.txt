@@ -1,4 +1,35 @@
 ##########bloody shit################
+
+--------------------2017-02-04--------------------
+
+Secure Shell(SSH)
+    22
+
+Server to client Dynamic Host Configuration Protocol v6
+    547
+
+File Transfer Protocol - Data(FTP-DATA)
+    20
+
+File Transfer Protocol - Control(FTP)
+    21
+
+Telnet(TELNET)
+    23
+
+Print first field for each record in file excluding the first record
+    awk 'NR!=1{print $1}' file
+
+Print first field for each record in file
+    awk '{print $1}' file
+
+Print total number of lines that contain foo
+    awk '/foo/{n++}; END{print n+0}' file
+
+
+--------------------2017-02-04--------------------
+
+
 --------------------2017-02-03--------------------
 Print line number 12 of file
     awk 'NR==12' file
