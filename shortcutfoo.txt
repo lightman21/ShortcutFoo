@@ -1,4 +1,33 @@
 ##########bloody shit################
+--------------------2017-02-06--------------------
+Print first field for each record in file excluding the first record
+    awk 'NR!=1{print $1}' file
+
+Match end of input
+    $
+
+"sticky" search match starting at current position in target string
+    y
+
+Match any non-word character
+    \W
+
+Match a rarriage return
+    \r   (\n is the bloody line feed)
+
+Negative lookbehind
+    ?<!
+
+Server to client Dynamic Host Configuration Protocol(V6)
+    548
+
+Server to client Dynamic Host Configuration Protocol(V4)
+    68
+
+Client to server Dynamic Host Configuration Protocol(v6)
+    547
+    
+--------------------2017-02-06--------------------
 --------------------2017-02-05--------------------
 Compress 'file' with gzip
     gzip file
@@ -26,7 +55,6 @@ Find file names quickly
 
 Server to client Dynamic Host Configuration Protocol(V6)
     548
-
 --------------------2017-02-05--------------------
 
 
