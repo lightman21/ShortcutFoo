@@ -1,4 +1,26 @@
 ##########bloody shit################
+--------------------2017-02-07--------------------
+Print line immediately after regex,but no line containing regex
+    awk '/regex;END{getline;print}' file
+
+Print total number of lines that contain foo
+    awk '/foo/{n++}; END{print n+0}' file
+
+Go to bookmark position 'a'
+    `a`
+
+Search for current word forward
+    *
+"Sticky" search match starting at current position in target string
+    y
+
+Match a single character other than white space
+    \S
+
+Match a line feed
+    \n
+--------------------2017-02-07--------------------
+
 --------------------2017-02-06--------------------
 Print first field for each record in file excluding the first record
     awk 'NR!=1{print $1}' file
@@ -12,7 +34,7 @@ Match end of input
 Match any non-word character
     \W
 
-Match a rarriage return
+Match a carriage return
     \r   (\n is the bloody line feed)
 
 Negative lookbehind
@@ -28,6 +50,8 @@ Client to server Dynamic Host Configuration Protocol(v6)
     547
     
 --------------------2017-02-06--------------------
+
+
 --------------------2017-02-05--------------------
 Compress 'file' with gzip
     gzip file
@@ -59,20 +83,20 @@ Server to client Dynamic Host Configuration Protocol(V6)
 
 
 --------------------2017-02-04--------------------
-Secure Shell(SSH)
-    22
-
-Server to client Dynamic Host Configuration Protocol v6
-    547
-
 File Transfer Protocol - Data(FTP-DATA)
     20
 
 File Transfer Protocol - Control(FTP)
     21
 
+Secure Shell(SSH)
+    22
+
 Telnet(TELNET)
     23
+
+Server to client Dynamic Host Configuration Protocol v6
+    547
 
 Print first field for each record in file excluding the first record
     awk 'NR!=1{print $1}' file
