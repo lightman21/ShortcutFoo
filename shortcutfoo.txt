@@ -11,6 +11,7 @@ Go to bookmark position 'a'
 
 Search for current word forward
     *
+
 "Sticky" search match starting at current position in target string
     y
 
