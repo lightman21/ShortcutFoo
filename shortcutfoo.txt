@@ -1,4 +1,39 @@
 ##########bloody shit################
+--------------------2017-02-10--------------------
+Line number of the current record
+    NR
+
+Count lines in file
+    awk 'END{print NR}' file
+
+Server to client Dynamic Host Configuration Protocol
+    547
+
+Client to server Dynamic Host Configuration Protocol
+    546
+
+Telnet(TELNET)
+    23
+
+Halt current command
+    ^c
+
+Find file names quickly
+    locate file
+
+Background current command
+    ^z
+
+Match character with code hh(2 hex digits)
+    \xhh
+
+Match character with code hh(4 hex digits)
+    \uhhhh
+
+Match any non-word character
+    \W
+--------------------2017-02-10--------------------
+
 --------------------2017-02-09--------------------
 Create tar with gzip compressioin
     tar czf file.tar.gz files
