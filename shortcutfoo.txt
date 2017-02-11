@@ -1,4 +1,23 @@
 ##########bloody shit################
+--------------------2017-02-11--------------------
+Server to client Dynamic Host Configuration Protocol(V6)
+    547
+
+Execute command 3 in history
+    !3
+
+Move to beginning of line
+    ^a
+
+Decompress file.gz
+    gzip -d file.gz
+
+Find file names quickly
+    locate file
+
+--------------------2017-02-11--------------------
+
+
 --------------------2017-02-10--------------------
 Line number of the current record
     NR
@@ -6,10 +25,10 @@ Line number of the current record
 Count lines in file
     awk 'END{print NR}' file
 
-Server to client Dynamic Host Configuration Protocol
+Server to client Dynamic Host Configuration Protocol(V6)
     547
 
-Client to server Dynamic Host Configuration Protocol
+Client to server Dynamic Host Configuration Protocol(V6)
     546
 
 Telnet(TELNET)
