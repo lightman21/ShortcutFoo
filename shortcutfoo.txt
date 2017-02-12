@@ -1,4 +1,63 @@
 ##########bloody shit################
+--------------------2017-02-12--------------------
+Show character info
+    ga
+    
+Return a list of lines in s $ 'hello\nworld'=>['hello','world']
+    s.splitlines()
+
+Return True if s is lower
+    s.islower()
+
+Return list of s split by sep with rightmost maxsplits performed
+    s.rsplit(sep,maxsplit)
+
+Return s joined by iterable '123' # 'hello' => '1hello2hello3'
+    s.join('123')
+
+Casefold s(aggressive lowercasing for caseless matching)# 'Abc'=> 'abc'
+    s.casefold() # Python3
+
+Partition string at last occurrence of sep,return 3-tuple with part before,the sep,and part after
+# 'hello' => s.rpartition('l') => ('hel','l','o')
+s.rpartition(sep)
+
+Return True if s is alphabetic
+    s.isalpha()
+    
+Return True if s starts with s2
+    s.startswith(s2)
+
+Return True if s is decimal
+    s.isdecimal()
+
+Return list of s split by sep with leftmost performed
+    s.split(sep,maxsplit)
+
+Return True if s is uppercase
+    s.isupper()
+
+Partition string at sep and return 3-tuple before,the sep itself,and part after
+#'hello'=>('he','l','lo')
+s.partition(sep)
+
+Slice of s from i to j with step k
+    s[i:j:k]
+
+Return True if s ends with s2
+    s.endswith(s2)
+
+Return True if s is titlecased # 'Hello World' => True
+    s.istitle()
+    
+Return True if s is alphanumeric
+    s.isalnum()
+
+Return True if s is numeric
+    s.isnumeric()
+--------------------2017-02-12--------------------
+
+
 --------------------2017-02-11--------------------
 Server to client Dynamic Host Configuration Protocol(V6)
     547
@@ -14,7 +73,6 @@ Decompress file.gz
 
 Find file names quickly
     locate file
-
 --------------------2017-02-11--------------------
 
 
