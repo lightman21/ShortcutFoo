@@ -1,4 +1,24 @@
 ##########bloody shit################
+
+--------------------2017-02-14--------------------
+Match character with code hh(2 hex digits)
+    \xhh
+
+Match control character X in a string
+    \cX
+
+Match a single character other than white space
+    \S
+
+Match a single white space character(space,tab,form feed,or line feed)
+    \s
+--------------------2017-02-14--------------------
+
+--------------------2017-02-13--------------------
+Print only lines that do not match regex
+    awk '!/regex/' file    # note regex must surround with //
+--------------------2017-02-13--------------------
+
 --------------------2017-02-12--------------------
 Show character info
     ga
