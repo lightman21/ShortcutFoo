@@ -1,5 +1,29 @@
 ##########bloody shit################
 
+--------------------2017-02-15--------------------
+Match a vertical tab
+    \v
+
+Look up word in man page
+    K
+
+Lookup 'cmd' in help
+    help cmd
+
+Confirm replace all 'foo' with 'bar' in file
+    %s/foo/bar/gc
+
+Search forwards for 'foo'
+    /foo
+
+Confirm replace all 'foo' with 'bar' on line
+    :s/foo/bar/gc
+
+Simple Mail Transfer Protocol(SMTP)
+    25
+--------------------2017-02-15--------------------
+
+
 --------------------2017-02-14--------------------
 Match character with code hh(2 hex digits)
     \xhh
