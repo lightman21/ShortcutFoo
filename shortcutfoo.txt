@@ -1,5 +1,20 @@
 ##########bloody shit################
 
+--------------------2017-02-16--------------------
+Compress 'file' with gzip
+    gzip file
+
+Find file names quickly
+    locate file
+
+Create tar with gzip compression
+    tar czf file.tar.gz files
+
+Show man page for cmd
+    man cmd
+--------------------2017-02-16--------------------
+
+
 --------------------2017-02-15--------------------
 Match a vertical tab
     \v
