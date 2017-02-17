@@ -1,4 +1,47 @@
 ##########bloody shit################
+--------------------2017-02-17--------------------
+Match any alphanumeric character(including underscore)
+    \w
+
+Delete word
+    dw
+
+Cut highlighted text
+    d
+
+Move to beginning of line
+    0
+
+Move to end of line
+    $
+
+New window to left
+    :vs
+
+Visual mode highlight lines
+    V
+
+Change rest of current word
+    ce
+
+Execute and insert results of 'cmd'
+    :r !cmd
+
+Print line number 12 of file
+    awk 'NR==12' file
+
+Execute action for matched pattern 'pattern' on file 'file'
+    awk '/pattern/{action}' file
+
+Print line immediately after regex,but no line containing regex
+    awk '/regex/{getline;print}' file
+
+Substitute t for first occurrence of regex r in string s
+    sub(r,t,s)
+
+
+--------------------2017-02-17--------------------
+
 
 --------------------2017-02-16--------------------
 Compress 'file' with gzip
