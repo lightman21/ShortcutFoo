@@ -1,4 +1,22 @@
 ##########bloody shit################
+--------------------2017-02-18--------------------
+Server to client Dynamic Host Configuration Protocol V6
+    547
+
+Client to server Dynamic Host COnfiguration Protocol v4
+    67
+
+Telnet
+    23
+
+Show man page for cmd
+    man cmd
+
+Terminate(KILL) process id of 5
+    kill -9 5
+--------------------2017-02-18--------------------
+
+
 --------------------2017-02-17--------------------
 Match any alphanumeric character(including underscore)
     \w
@@ -38,8 +56,6 @@ Print line immediately after regex,but no line containing regex
 
 Substitute t for first occurrence of regex r in string s
     sub(r,t,s)
-
-
 --------------------2017-02-17--------------------
 
 
