@@ -1,4 +1,28 @@
 ##########bloody shit################
+--------------------2017-02-19--------------------
+Move to end of line
+    $
+
+Move to end of word
+    e
+
+Search for current word forward
+    *
+
+Set seed for rand and return previous seed
+    srand
+
+Match any single character
+    .
+
+"sticky" search match staring at current position in target string
+    y
+
+Match a line feed
+    \n
+--------------------2017-02-19--------------------
+
+
 --------------------2017-02-18--------------------
 Server to client Dynamic Host Configuration Protocol V6
     547
