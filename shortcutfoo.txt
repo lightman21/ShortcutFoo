@@ -1,4 +1,28 @@
 ##########bloody shit################
+--------------------2017-02-20--------------------
+List current dir contents(long format)
+    ls -l
+
+Background current command
+    ^z
+
+Search for 'pattern' in output of cmd
+    cmd | grep pattern
+
+Show where app location is
+    whereis app
+
+File Transfer Protocol - Control(FTP)
+    21
+
+Match a NULL
+    \0
+
+Match any non-word character
+    \W
+--------------------2017-02-20--------------------
+
+
 --------------------2017-02-19--------------------
 Move to end of line
     $
