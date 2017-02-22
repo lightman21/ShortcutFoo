@@ -1,4 +1,22 @@
 ##########bloody shit################
+--------------------2017-02-22--------------------
+Print first field for each record in file
+    awk '{print $1}' file
+
+Count lines in file 
+    awk 'END{print NR}' file
+
+Print line if field 1 matches regex in file
+    awk '$1 ~ /regex/' file
+
+Number of fields in current record
+    NF
+
+Print line immediately after regex,but no line containing regex
+    awk '/regex/{getline;print}' file
+--------------------2017-02-22--------------------
+
+
 --------------------2017-02-20--------------------
 List current dir contents(long format)
     ls -l
