@@ -1,4 +1,40 @@
 ##########bloody shit################
+--------------------2017-02-25--------------------
+view-blob(Show blob view)
+    f
+--------------------2017-02-25--------------------
+
+
+--------------------2017-02-23--------------------
+"Stick" search match starting at current position in target String
+    y
+
+Match character with code hh
+    \xhh
+
+Match a line feed
+    \n
+
+Negative lookahead
+    ?!
+
+Lookahead
+    ?=
+
+Show where app location is
+    whereis app
+
+Find file names quickly
+    locate file
+
+Return len-char substring of s that begins at index
+    substr(s,index,len)
+
+File separator of input file
+    FS
+--------------------2017-02-23--------------------
+
+
 --------------------2017-02-22--------------------
 Print first field for each record in file
     awk '{print $1}' file
