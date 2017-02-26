@@ -1,4 +1,37 @@
 ##########bloody shit################
+--------------------2017-02-26--------------------
+view-blob(Show blob view)
+    f
+
+view-stash(Show stash view)
+    y
+
+view-stage(Show stage view)
+    c
+
+Lookup 'cmd' in help
+    :help cmd
+
+Execute cmd and return status
+    system(cmd)
+
+Count lines in file
+    awk 'END{print NF}' file
+
+Print line immediately after regex,but no line containing regex
+    awk '/regex/{getline;print}' file
+
+Record separator of input file
+    RS
+
+Print total number of lines that contain foo
+    awk '/foo/{n++};END{print n+0}' file
+
+
+--------------------2017-02-26--------------------
+
+
+
 --------------------2017-02-25--------------------
 view-blob(Show blob view)
     f
