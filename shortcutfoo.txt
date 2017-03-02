@@ -1,4 +1,17 @@
 ##########bloody shit################
+--------------------2017-03-02--------------------
+Reference current record line
+    $0
+
+Match beginning of field
+    ^
+
+Print line immediate after regex,but no line containing regex
+    awk '/regex/{getline;print}' file
+
+--------------------2017-03-02--------------------
+
+
 --------------------2017-02-26--------------------
 view-blob(Show blob view)
     f
@@ -26,8 +39,6 @@ Record separator of input file
 
 Print total number of lines that contain foo
     awk '/foo/{n++};END{print n+0}' file
-
-
 --------------------2017-02-26--------------------
 
 
