@@ -1,4 +1,14 @@
 ##########bloody shit################
+--------------------2017-03-03--------------------
+Move-page-up(Move cursor half a page up)
+    ^u
+
+Move-page-down(Move cursor half a page down)
+    ^d
+
+--------------------2017-03-03--------------------
+
+
 --------------------2017-03-02--------------------
 Reference current record line
     $0
