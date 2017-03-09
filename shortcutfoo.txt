@@ -1,4 +1,33 @@
 ##########bloody shit################
+
+--------------------2017-03-09--------------------
+Move-down(Move cursor one line down)
+    j
+
+Move-up(Move cursor one line up)
+    k
+
+Move-page-up(Move cursor half a page up)
+    ^u
+
+Move-page-down(Move cursor half a page down)
+    ^d
+
+Scorll-line-up(Scroll one line up)
+    ^y
+
+Scorll-line-down(Scroll one line down)
+    ^e
+--------------------2017-03-09--------------------
+
+
+--------------------2017-03-05--------------------
+Move to previous
+    ^p
+--------------------2017-03-05--------------------
+
+
+
 --------------------2017-03-03--------------------
 Move-page-up(Move cursor half a page up)
     ^u
