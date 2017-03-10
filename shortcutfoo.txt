@@ -1,4 +1,28 @@
 ##########bloody shit################
+--------------------2017-03-10--------------------
+New window to left
+    :vs
+
+Change highlighted text
+    c
+
+Scroll up
+    ^y
+
+"stick" search match starting at current position in target string
+    y
+
+Create tar with gzip compression
+    tar czf file.tar.gz files
+
+Search for 'pattern' in output of cmd
+    cmd | grep pattern
+
+Bing job 2 to foreground
+    fg 2
+
+
+--------------------2017-03-10--------------------
 
 --------------------2017-03-09--------------------
 Move-down(Move cursor one line down)
