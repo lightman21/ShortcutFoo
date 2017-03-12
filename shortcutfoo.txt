@@ -1,4 +1,22 @@
 ##########bloody shit################
+--------------------2017-03-12--------------------
+Close the current nodes parent
+    x
+
+Recursively close all children of the current node
+    X
+
+Open selected file in a split window but cursor on NERDTree
+    gi
+
+Open selected file in a new vsplit(Vertical)
+    s
+
+Open selected file in a split window(Horizontal)
+    i
+--------------------2017-03-12--------------------
+
+
 --------------------2017-03-10--------------------
 New window to left
     :vs
@@ -20,9 +38,8 @@ Search for 'pattern' in output of cmd
 
 Bing job 2 to foreground
     fg 2
-
-
 --------------------2017-03-10--------------------
+
 
 --------------------2017-03-09--------------------
 Move-down(Move cursor one line down)
