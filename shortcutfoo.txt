@@ -1,4 +1,22 @@
 ##########bloody shit################
+--------------------2017-03-19--------------------
+Move the tree up one directory
+    u
+
+Jump to current node's parent
+    p
+
+Jump to root node
+    P
+
+Toggle whether hidden files displayed
+    I
+
+Zoom(maximize/minmize) the NERDTree window
+    A
+--------------------2017-03-19--------------------
+
+
 --------------------2017-03-12--------------------
 Close the current nodes parent
     x
