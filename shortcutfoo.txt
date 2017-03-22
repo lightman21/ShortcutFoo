@@ -1,4 +1,40 @@
 ##########bloody shit################
+--------------------2017-03-22--------------------
+Position in string s where regex r occurs,or 0 if not found
+    match(s,r)
+
+Print only lines that match regex in file
+    awk '/regex/' file
+
+Count lines in file
+    awk 'END{print NR}' file
+
+Print current record line
+    print
+
+Show which app
+    which app
+
+Display your active processes
+    ps
+
+Delete char infront of cursor or logout
+    ^d
+
+Find file names quickly
+    locate file
+
+Delete char begind cursor(backspace)
+    ^h
+
+Show where app location is
+    whereis app
+
+Show man page for cmd
+    man cmd
+--------------------2017-03-22--------------------
+
+
 --------------------2017-03-19--------------------
 Move the tree up one directory
     u
