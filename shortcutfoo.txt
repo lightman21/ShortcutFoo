@@ -1,4 +1,23 @@
 ##########bloody shit################
+--------------------2017-03-29--------------------
+Show what's changed but not yet staged
+    git diff
+
+Fetch and merge branch 'develop' from origin 
+    git pull origin develop
+
+Start tracking file.txt
+    git add file.txt
+
+Pull data from remote 'develop' without merging 
+    git fetch develop
+
+Stage modified file main.txt
+    git add main.txt
+
+--------------------2017-03-29--------------------
+
+
 --------------------2017-03-22--------------------
 Position in string s where regex r occurs,or 0 if not found
     match(s,r)
