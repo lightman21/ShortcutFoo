@@ -1,4 +1,33 @@
 ##########bloody shit################
+--------------------2017-03-30--------------------
+Show last commit on all branches
+    git branch -v
+
+Force delete branch 'fix' that is not yet merged
+    git branch -D fix
+
+Push master branch to origin server
+    git push origin master
+
+Delete remote branch 'fix2' from origin
+    git push origin  :fix2   (note there's a blank between origin and :)
+
+Show branches not yet merged into current branch
+    git branch --no-merged
+
+Show branchs already merged into current branch
+    git branch --merged
+
+Push develop branch to remote staging master
+    git push staging develop:master
+
+Create local branch 'fix1' based off origin branch
+    git checkout -b fix1 origin/fix1
+
+Create tracking branching 'fix2' based off origin
+    git checkout --track origin/fix2
+--------------------2017-03-30--------------------
+
 --------------------2017-03-29--------------------
 Show what's changed but not yet staged
     git diff
