@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 b
 =======
 this is before conflict
@@ -6,6 +7,3 @@ b
 o
 b
 
-===  and  >>> is mine
-but === and <<< are others
->>>>>>> c3891f4
