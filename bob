@@ -40,4 +40,7 @@ shortcutfoo.txt
 shortcutfoo.txt
 shortcutfoo.txt
 shortcutfoo.txt
-shortcutfoo.txt
+<<<<<<< HEAD
+=======
+>>>>>>> conflict again
+>>>>>>> 1f3c0ab
