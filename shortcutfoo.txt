@@ -1,3 +1,42 @@
+
+--------------------2017-05-31--------------------
+Push develop branch to remote staging master
+    git push staging develop:master
+
+Rebase changes made on current branch over develop
+    git rebase develop
+
+
+--------------------2017-05-31--------------------
+
+--------------------2017-05-04--------------------
+Rebase master onto develop without checking it out
+    git rebase master develop
+
+Merge branch 'feature1' with current branch
+    git merge feature1
+
+Finalize merge after resolving conflict
+    git commit
+
+Use graphical merge tool
+    git mergetool
+
+Push develop branch to remote staging master
+    git push staging develop:master
+
+Rebase changes made on current branch over develop
+    git rebase develop
+
+Rebase master onto branch 1b made from branch 1a
+    git rebase --onto master 1a 1b
+--------------------2017-05-04--------------------
+
+
+
+
+
+
 ##########bloody shit################
 --------------------2017-03-30--------------------
 Show last commit on all branches
